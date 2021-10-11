@@ -1,0 +1,51 @@
+{
+  "name": "votey-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "types": "tsc"
+  },
+  "dependencies": {
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/typography": "^0.2.0",
+    "caniuse-lite": "^1.0.30001245",
+    "classnames": "^2.2.6",
+    "formik": "^2.1.5",
+    "luxon": "^1.25.0",
+    "mongodb": "^3.6.0",
+    "next": "^10.0.0",
+    "next-auth": "^3.1.0",
+    "postcss-flexbugs-fixes": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "query-string": "^6.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "^2.8.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "remark-linkify-regex": "^1.0.0",
+    "tailwindcss": "^1.6.0",
+    "yup": "^0.29.3"
+  },
+  "peerOptionalDependencies": {
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/luxon": "^1.24.3",
+    "@types/mongodb": "^3.5.25",
+    "@types/next-auth": "^3.1.11",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.43",
+    "@types/yup": "^0.29.6",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.5",
+    "typescript": "^4.0.0"
+  }
+}
